@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ClientCard from "./components/ClientCard";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="bg-slate-400 text-center p-8">
         <h2>Links</h2>
         <Link href="/users">Users</Link>
+        <ClientCard></ClientCard>
       </div>
       
       </main>
